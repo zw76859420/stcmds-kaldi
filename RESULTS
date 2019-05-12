@@ -1,0 +1,28 @@
+=========================First Training===========================
+
+ 进行jieba分词文本之后，进行声学模型训练之后的结果
+
+ Model       CER       WER
+Monophone   47.94     60.40 
+Triphone1   38.39     56.87
+Triphone2   38.40     56.97
+LDA+MLLT    35.94     54.42
+SAT         34.73     53.91
+EnhanceSAT
+
+=========================First Training===========================
+
+  将文本使用空格分开训练，声学模型实验结果
+
+ Model       CER       WER
+Monophone   48.09     48.33
+Triphone1   29.18     29.69
+Triphone2   29.20     29.68
+LDA+MLLT    26.87     27.41
+SAT         24.61     25.21
+EnhanceSAT  21.30     21.99
+EnhanceTri  26.67     27.75 
+DNN
+TDNN        15.53     16.57    
+CHAIN
+
